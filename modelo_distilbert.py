@@ -31,7 +31,7 @@ def query(payload):
         return []
 
 # Carga el archivo csv
-df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/ecuPrueba_40.csv')
+df = pd.read_csv('ecuPrueba_40.csv')
 
 # Variable para contar el total de entidades nombradas
 total_entidades_nombradas = 0
